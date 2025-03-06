@@ -18,6 +18,14 @@ return Application::configure(basePath: dirname(__DIR__))
       \Illuminate\Http\Middleware\AddLinkHeadersForPreloadedAssets::class,
     ]);
 
+
+    $middleware->alias([
+      'role' => \Spatie\Permission\Middleware\RoleMiddleware::class,
+      'permission' => \Spatie\Permission\Middleware\PermissionMiddleware::class,
+      'role_or_permission' => \Spatie\Permission\Middleware\RoleOrPermissionMiddleware::class,
+    ]);
+
+
     // API Middleware (CSRF is NOT needed for API requests)
     // $middleware->group('api', [
     //   EnsureFrontendRequestsAreStateful::class, // Required for Sanctum authentication
