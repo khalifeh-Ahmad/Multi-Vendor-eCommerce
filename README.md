@@ -1,31 +1,15 @@
-<h2 align="center" style="font-size: 40px; font-weight: bold; color: #333; padding-bottom: 20px;">Core Features</h2>
+## Core Features
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; padding: 20px;">
-  <!-- Laravel Logo -->
-  <div style="width: 170px; height: 70px; border-radius: 8px; background-color: white; display: flex; align-items: center; justify-content: center;">
-    <img src="https://larastore.io/images/laravel_logo.webp" alt="Laravel Logo" style="max-width: 100%; height: auto;">
-  </div>
-  
-  <!-- React Logo -->
-  <div style="width: 170px; height: 70px; border-radius: 8px; background-color: white; display: flex; align-items: center; justify-content: center;">
-    <img src="https://larastore.io/images/react_logo.webp" alt="React Logo" style="max-width: 100%; height: auto;">
-  </div>
+- **Laravel**: The PHP framework for building robust web applications.
+- **React**: A JavaScript library for building user interfaces, particularly single-page applications.
+- **TypeScript**: A superset of JavaScript that adds static typing to the language.
+- **Inertia.js**: A framework that allows you to build modern single-page apps without needing an API.
+- **Tailwind CSS**: A utility-first CSS framework for building custom designs without leaving your HTML.
+- **DaisyUI**: A Tailwind CSS plugin.
+- **Spatie**: For Laravel-permission.
+- **Filament**: For Admin panel.
 
-  <!-- TypeScript Logo -->
-  <div style="width: 170px; height: 70px; border-radius: 8px; background-color: white; display: flex; align-items: center; justify-content: center;">
-    <img src="https://larastore.io/images/typescript_logo.webp" alt="TypeScript Logo" style="max-width: 100%; height: auto;">
-  </div>
 
-  <!-- Inertia Logo -->
-  <div style="width: 170px; height: 70px; border-radius: 8px; background-color: white; display: flex; align-items: center; justify-content: center;">
-    <img src="https://larastore.io/images/inertia_logo.webp" alt="Inertia Logo" style="max-width: 100%; height: auto; border-radius: 8px;">
-  </div>
-
-  <!-- TailwindCSS Logo -->
-  <div style="width: 170px; height: 70px; border-radius: 8px; background-color: white; display: flex; align-items: center; justify-content: center;">
-    <img src="https://larastore.io/images/tailwindcss_logo.webp" alt="TailwindCSS Logo" style="max-width: 100%; height: auto;">
-  </div>
-</div>
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
