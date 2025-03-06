@@ -1,6 +1,26 @@
 <h2 class="mb-3 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[40px] md:leading-[1.2]">
     Core Features</h2>
 
+    <div class="container p-4">
+            <div class="-mx-4 flex flex-wrap items-center justify-center gap-8 xl:gap-11">
+                <div class="w-[170px] h-[70px] rounded-md bg-white flex items-center justify-center">
+                    <img src="https://larastore.io/images/laravel_logo.webp" alt="graygrids">
+                </div>
+                <div class="w-[170px] h-[70px] rounded-md bg-white flex items-center justify-center">
+                    <img src="https://larastore.io/images/react_logo.webp" alt="graygrids">
+                </div>
+                <div class="w-[170px] h-[70px] rounded-md bg-white flex items-center justify-center">
+                    <img src="https://larastore.io/images/typescript_logo.webp" alt="graygrids">
+                </div>
+                <div>
+                    <img src="https://larastore.io/images/inertia_logo.webp" alt="graygrids" class="rounded-md">
+                </div>
+                <div class="w-[170px] h-[70px] rounded-md bg-white flex items-center justify-center">
+                    <img src="https://larastore.io/images/tailwindcss_logo.webp" alt="graygrids">
+                </div>
+            </div>
+        </div>
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
