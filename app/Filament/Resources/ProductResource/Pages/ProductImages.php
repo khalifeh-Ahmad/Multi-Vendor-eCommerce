@@ -11,11 +11,13 @@ use Filament\Resources\Pages\EditRecord;
 class ProductImages extends EditRecord
 {
   protected static string $resource = ProductResource::class;
+  protected static ?string $title = 'Images';
   protected static ?string $navigationIcon = 'heroicon-c-photo';
   public function form(Form $form): Form
   {
     return $form->schema([
-      SpatieMediaLibraryFileUpload::make('images')->image()->multiple()->openable()
+      SpatieMediaLibraryFileUpload::make('images')->label(false)
+        ->image()->multiple()->openable()
         ->panelLayout('grid')->collection('images')->reorderable()->appendFiles()->preserveFilenames()
         ->columnSpan(2)
     ]);
